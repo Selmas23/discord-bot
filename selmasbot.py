@@ -13,7 +13,7 @@ print(ec2_metadata.region)
 print(ec2_metadata.instance_id)
 
 #Created a client object from the discord class and insterted the token
-
+#TOKEN wasn't working so had to change/add the token name to SELMA in the env file, YAY because it wworked
 client = discord.Client()
 token = str(os.getenv('SELMA'))
 
