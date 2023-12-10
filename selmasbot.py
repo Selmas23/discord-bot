@@ -32,7 +32,7 @@ async def on_message(message):
     user_message = str(message.content) 
 
     print(f'Message {user_message} by {username} on {channel}') 
-
+#if
     if message.author == client.user: 
         return
 
